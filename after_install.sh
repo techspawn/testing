@@ -7,6 +7,9 @@ cd /home/ubuntu/$DIRNAME
 #latest_search="ls -lt | ls -Art | tail -n 1"
 #temp=`eval $latest_search`
 git clone https://github.com/techspawn/testing-jenkins.git /home/ubuntu/$DIRNAME
+#for latest files
+git pull origin master
+#git rebase master
 
 #source="/opt/codedeploy-agent/deployment-root/f0e189ee-84a6-44ea-99db-7bbd7d92f61f/"$temp"/deployment-archive/"
 #echo "Source is - ";
